@@ -1,0 +1,21 @@
+.Header {
+  padding: 3rem; }
+  .Header .title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2.5rem; }
+  .Header .logo {
+    margin-right: 1rem;
+    margin-left: -0.5rem; }
+  .Header .lead {
+    font-size: 1.75em;
+    opacity: 0.5; }
+  .Header .button {
+    background: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    border: 0.2em solid white;
+    font-size: 1em; }
