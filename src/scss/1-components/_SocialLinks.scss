@@ -1,0 +1,19 @@
+.SocialLinks {
+  list-style: none;
+  padding: 2rem 0;
+  margin: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  grid-auto-columns: max-content;
+
+  .social-icon {
+    height: 1.5em;
+    fill: white;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

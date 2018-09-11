@@ -6,7 +6,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <div className="container">
+          <Header />
+          <footer className="Footer">
+            Copyright © {(new Date()).getFullYear()}, David Leger. All rights. reserved.
+          </footer>
+        </div>
       </div>
     );
   }

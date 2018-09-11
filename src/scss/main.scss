@@ -1,1 +1,10 @@
 @import "./1-components/_Header";
+@import "./1-components/_Button";
+@import "./1-components/_Footer";
+@import "./1-components/_SocialLinks";
+
+.container {
+  max-width: 1440px;
+  width: 90vw;
+  margin: auto;
+}

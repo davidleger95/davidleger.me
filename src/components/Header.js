@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Button from './Button';
+import SocialLinks from './SocialLinks';
 import logo from '../assets/logo.svg';
 
 class Header extends Component {
@@ -10,7 +12,8 @@ class Header extends Component {
           David Leger
         </h1>
         <p className="lead">Web developer and designer.</p>
-        <button className="button">Contact</button>
+        <Button type="link" href="mailto:davidleger95@me.com">Contact</Button>
+        <SocialLinks />
       </header>
     );
   }
